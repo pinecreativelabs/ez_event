@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btEzEvent">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+        </field>
+        <field name="fID" type="I"></field>
+	<field name="eventtitle" type="C" size="255"></field>
+	<field name="eventdate" type="T"></field>
+	<field name="evdateFormat" type="I"></field>
+	<field name="host" type="C" size="255"></field>
+	<field name="location1" type="C" size="255"></field>
+	<field name="location2" type="C" size="255"></field>
+	<field name="ephone" type="C" size="255"></field>
+	<field name="email" type="C" size="255"></field>
+	
+	<field name="eventurl" type="C" size="255"></field>
+	<field name="fbevent" type="C" size="255"></field>
+	<field name="gcal" type="C" size="255"></field>
+	<field name="meetup" type="C" size="255"></field>
+	<field name="eventbrite" type="C" size="255"></field>
+	
+	<field name="handicap" type="I1"><default value="0" /></field>
+	<field name="signing" type="I1"><default value="0" /></field>
+	<field name="closedcap" type="I1"><default value="0" /></field>
+	<field name="lodging" type="I1"><default value="0" /></field>
+	<field name="transport" type="I1"><default value="0" /></field>
+	<field name="eventcontent" type="X2"/>
+	<field name="emobf" type="I1"><default value="0" /></field>
+	<field name="maplink" type="I1"><default value="0" /></field>
+	
+	<field name="evTitleColor" type="C" size="100"></field>
+	<field name="evTitleBgColor" type="C" size="100"></field>
+	<field name="evDateColor" type="C" size="100"></field>
+	<field name="evDateBgColor" type="C" size="100"></field>
+	<field name="ezeAlign" type="C" size="50"></field>
+	<field name="evHeight" type="C" size="32"></field>
+    </table>
+</schema>

@@ -1,0 +1,69 @@
+.ezevent-wrap {
+   overflow: hidden;
+   float:left;
+   clear:both;
+   background: #eee
+}
+.ezevent-wrap p { 
+	text-align: justify;
+	line-height: 1.5em;
+}
+.eze-cover {
+	display: block;
+	width: 100%;
+	padding: 18px;
+	margin: 0;
+	background-size: cover;
+	background-position: center center;
+}
+.eze-cover h3 { margin-top: 10px !important; margin-bottom: 5px !important; font-size: 1.6em !important; line-height: 1.9em !important; font-weight: 900 !important; }
+.eze-cover h4 { margin-top: 4px !important; margin-bottom: 8px !important; font-size: 1.3em !important; line-height: 1.6em !important; font-weight: 900 !important; }
+.eze-cover h3, .eze-cover h4 { display: block; padding: 5px;}
+.rightalign { text-align: right !important; }
+.centered { text-align: center !important; }
+.eze-host-wrap { 
+	margin: 0;
+	padding: 8px 18px 8px 18px; 
+	font-size: 1.2em;
+	line-height: 1.65em;
+	display: block; width: 100%;
+}
+.eze-host-info {
+	text-align: left;
+	float: left;
+	width: 50%;
+	display: block;
+}
+.eze-location-info {
+	text-align: right;
+	float: right;
+	width: 50%;
+	display: block;
+}
+.eze-content {
+	margin: 0;
+	padding: 18px;
+	clear: both;
+}
+.eze-content p { margin: 0 !important; padding: 0 !important; }
+.eze-links { padding: 8px 18px 8px 18px; }
+.eze-links a { display: inline-block; padding: 0 8px 0 8px; }
+a img.eze-small { height: 40px !important; width: auto !important; }
+.biocontent p {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.eze-access{
+	line-height: 1.75em; 
+	padding: 10px;
+	margin: 0;
+	border: 1px solid #ddd;
+}
+.eze-access i, .eze-host-info i { width: 28px; text-align: center !important;}
+
+@media only screen and (max-width: 540px) {
+	.ezb-xxs { display: none !important; }
+}
+@media only screen and (min-width: 540px) {
+	.ezb-xxs-only { display: none !important; }
+}
